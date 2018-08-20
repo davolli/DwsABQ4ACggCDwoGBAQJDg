@@ -526,7 +526,7 @@ iframe{
 /* end carousel */
 
 /* -----  Photos Hover Animations ----- */
-.popup-wrapper{ display:block; position:relative; overflow:hidden;}
+.popup-wrapper{ display:block; position:relative; overflow:hidden; padding-bottom: 40px;}
 
 .popup-gallery{
 	display:inline-block;
@@ -697,6 +697,9 @@ p.home-subtitle{
 }
 
 .service-inner{
+	text-align: left;
+	padding-bottom: 
+	width: 100%;
 	display:inline-block;
 	padding:10px 20px 40px 20px;
 	text-align:center;
@@ -799,8 +802,8 @@ p.home-subtitle{
 #newsletter-form #email_newsletter {
 	width:91%;
 	max-width:400px; 
-	height:56px;
-	line-height:56px;
+	height:156px;
+	/*line-height:56px;*/
     padding:0 4%;
 	border: 1px solid #2a97a9;
 	background-color: #33a4b6;
@@ -1338,11 +1341,13 @@ a.button-blog:hover{
 }
 
 .pricing-bottom ul li {
-	text-align:center;
+	text-align:left;
 	font-size:16px;
 	line-height:30px;
 }
-
+.pricing-bottom ul li span {
+	float:right;
+}
 .btn-pricing-green {
   color: #fff;
   font-weight:600;
@@ -2380,4 +2385,11 @@ ul.footer-list li a:hover{
 .borda-rd1 {
 	border-bottom: 1px solid #858585;
 	border-top: 1px solid #858585;
+}
+
+#preco {
+	margin-bottom: 100px;
+}
+.service-item h3 {
+	text-align: center;
 }
