@@ -1778,7 +1778,8 @@ p.autor span {
 .sponsors img.sponsor {
     opacity: 0.4;
     margin: 10px 25px;
-    max-height: 30px;
+	max-height: 120px;
+	width: 500px;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -ms-transition: all 0.25s ease-in-out;
