@@ -675,23 +675,23 @@
                                 <div class="row">
                             
                                     <!--begin success message -->
-                                    <p class="contact_success_box" style="display:none;">Nós recebemos seu pedido, em breve entraremos em contato. OBRIGADO!</p>
+                                    <p class="contact_success_box" style="display:none;text-align:center">Nós recebemos seu pedido, em breve entraremos em contato. OBRIGADO!</p>
                                     <!--end success message -->
                                     
                                     <!--begin contact form -->
-                                    <form id="contact-form" class="contact" method="post" onsubmit="enviarPedido()">
+                                    <form id="contact-form" action='post' class="contact">
                                         
                                         <!--begin col-md-6-->
                                         <div class="col-md-6">
-                                            <input class="contact-input white-input" required="" name="contact_names" placeholder="Nome*" type="text">
-                                            <input class="contact-input white-input" required="" name="contact_empresa" placeholder="Empresa*" type="text">
-                                            <input class="contact-input white-input" required="" name="contact_email" placeholder="Email*" type="email">
+                                            <input class="contact-input white-input" required="" id="contact_nome" placeholder="Nome*" type="text">
+                                            <input class="contact-input white-input" required="" id="contact_empresa" placeholder="Empresa*" type="text">
+                                            <input class="contact-input white-input" required="" id="contact_email" placeholder="Email*" type="email">
                                         </div>
                                         <!--end col-md-6-->
                                         
                                         <!--begin col-md-6-->
                                         <div class="col-md-6">
-                                            <textarea class="contact-commnent white-input" rows="2" cols="20" name="contact_message" placeholder="Descreva seu site..."></textarea>
+                                            <textarea class="contact-commnent white-input" rows="2" cols="20" id="contact_mensagem" placeholder="Descreva seu site..."></textarea>
                                         </div>
                                         <!--end col-md-6-->
                                         
@@ -886,7 +886,8 @@
     <script src="js/jquery.scrollTo-min.js"></script>
     <script src="js/SmoothScroll.js"></script>
     <script src="js/wow.js"></script>
-    
+    <script src="https://unpkg.com/shortid-dist@1.0.4/dist/shortid-2.2.8.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js'></script>
 	<!-- begin layerslider script-->
     <script src="layerslider/js/greensock.js"></script>
     <script src="layerslider/js/layerslider.transitions.js"></script>

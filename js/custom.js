@@ -3,6 +3,26 @@ $(window).load(function(){
 	"use strict";
 	
 	
+	$( "#contact-form" ).submit(function( event ) {
+		event.preventDefault();
+		let uid = shortid();
+		axios.put("https://onepages-6a5bb.firebaseio.com/pedidos/"+uid+".json", {
+			nome: $('#contact_nome').val(),
+			empresa: $('#contact_empresa').val(),
+			email: $('#contact_email').val(),
+			mensagem: $('#contact_mensagem').val(),
+		  })
+		  .then(function (response) {
+			$('#contact-form').css('display', 'none')
+			$('.contact_success_box').css('display', 'block')
+		  })
+		  .catch(function (error) {
+			  alert(error)
+			console.log(error);
+		  });
+	  });
+
+
 	/* ========================================================== */
 	/*   LayerSlider                                              */
 	/* ========================================================== */
