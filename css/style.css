@@ -1871,8 +1871,8 @@ p.testimonials-text {
     transition: all 0.5s ease;
 }
 
-.navbar-fixed-top { background-color: transparent!important;transition: background-color 1s ease 0s;}
-.navbar-fixed-top.opaque { background-color: rgba(34, 34, 34, 0.95)!important;transition: background-color 1s ease 0s;}
+.navbar-fixed-top { background-color: transparent!important;/*transition: background-color 1s ease 0s;*/}
+.navbar-fixed-top.opaque { background-color: #009DC6!important;/*transition: background-color 0.5s ease 0s;*/}
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover{
     -webkit-transition: all 0.5s ease;
