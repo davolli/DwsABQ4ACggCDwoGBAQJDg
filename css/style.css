@@ -2418,3 +2418,6 @@ ul.footer-list li a:hover{
 .navbar-collapse {
 	background-color: #009DC6;
 }
+.navbar-default .navbar-toggle {
+	background-color: #ddd;
+}
