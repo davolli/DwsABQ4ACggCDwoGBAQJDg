@@ -815,8 +815,8 @@ p.home-subtitle{
 }
 
 #newsletter-form #submit-button-newsletter {
-    width: 140px;
-	height:56px;
+    /*width: 140px;
+	height:56px;*/
     background-color:#2a97a9;
 	border: 1px solid #2a97a9;
     color:#fff;  
@@ -1491,7 +1491,7 @@ p.contact_success_box{
 	font-style:italic;
 	padding:20px 20px;
 	border:1px solid #fff;
-	webkit-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -1780,6 +1780,7 @@ p.autor span {
 }
 
 .sponsors img.sponsor {
+	max-width: 80%;
     opacity: 0.4;
     margin: 10px 25px;
 	max-height: 120px;
@@ -1892,7 +1893,7 @@ p.testimonials-text {
 	font-weight:600!important;
 	letter-spacing: 1px;
 	text-transform:none;
-	webkit-border-radius: 5px 5px;
+	-webkit-border-radius: 5px 5px;
     -moz-border-radius: 5px 5px;
     border-radius: 5px 5px;
 }
@@ -2394,6 +2395,7 @@ ul.footer-list li a:hover{
 }
 
 .float{
+	z-index: 9999;
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -2411,4 +2413,7 @@ ul.footer-list li a:hover{
 }
 .float:hover, .float:focus {
 	color: white;
+}
+.navbar-collapse {
+	background-color: #009DC6;
 }
