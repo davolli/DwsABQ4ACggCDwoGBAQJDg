@@ -1161,7 +1161,7 @@ a.button-blog:hover{
 	-o-transform: rotate(45deg);
 	display : none\9; /* IE9 and below */ 
 }
-
+/*
 .story .story-left:after {
 	position: absolute;
 	width: 25px;
@@ -1174,7 +1174,7 @@ a.button-blog:hover{
 	border-radius: 50%;
 	border: 5px solid #fff;
 }
-
+*/
 .story .story-right:after {
 	position: absolute;
 	width: 25px;
