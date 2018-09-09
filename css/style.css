@@ -2421,3 +2421,12 @@ ul.footer-list li a:hover{
 .navbar-default .navbar-toggle {
 	background-color: #ddd;
 }
+.price-right {
+	font-weight: 100;
+}
+.pricing-bottom ul li {
+	font-weight: bold;
+}
+.pricing-bottom {
+    padding: 0 15px 15px 15px; 
+}
